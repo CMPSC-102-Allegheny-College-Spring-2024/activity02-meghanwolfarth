@@ -21,7 +21,7 @@ The value of a feasible number is 1157920892373161954235709850086879078532699846
 The value of another feasible number is 179769313486231590772930519078902473361797697894230657273430081157732675805500963132708477322407536021120113879871393357658789768814416622492847430639474124377767893424865485276302219601246094119453082952085005768838150682342462881473913110540827237163350510684586298239947245938479716304835356329624224137216
 ```
 
-TODO: Use a fenced code block to provide the output for this command.
+Use a fenced code block to provide the output for this command.
 
 - `python compare-variables.py`
 ```
@@ -38,14 +38,17 @@ The value of 1/3 is 0.3333333333333333
 
 ### Why is it not feasible to perform the computation `2**2**100`?
 
-TODO: Provide a one-paragraph response to this question.
+Provide a one-paragraph response to this question.
+The number is too large for the program to calculate, so it is unable to provide an answer.
 
 ### What is the value of `1/3` according to the Python language? Why?
 
-TODO: Provide a one-paragraph response to this question.
+Provide a one-paragraph response to this question.
+The value of 1/3 is 0.3333333333333333. Python divides 1 by 3 and gets a repeating decimal, which it stops after a certain point because it cannot get a perfectly accurate answer.
 
 ### Why is the value of `.33333 + .33333 + .33333 == 1` equal to `False`?
 
-TODO: Provide a one-paragraph response to this question.
+Provide a one-paragraph response to this question.
+The value is false because Python does not think that the resulting value is close enough to 1 for it to be considered equal to 1.
 
 (Did you remember to add your name?!)
