@@ -1,11 +1,5 @@
 # Data Types
 
-Please remove the TODO markers and notes from this file
-so that the final document is written in a professional fashion
-suitable for publication. If you have questions about how to
-structure, format, and write this document, please ask for a
-preliminary assessment of your work in advance of the deadline.
-
 ## Meghan Wolfarth
 
 ## Program Output
@@ -38,17 +32,12 @@ The value of 1/3 is 0.3333333333333333
 
 ### Why is it not feasible to perform the computation `2**2**100`?
 
-Provide a one-paragraph response to this question.
 The number is too large for the program to calculate, so it is unable to provide an answer.
 
 ### What is the value of `1/3` according to the Python language? Why?
 
-Provide a one-paragraph response to this question.
 The value of 1/3 is 0.3333333333333333. Python divides 1 by 3 and gets a repeating decimal, which it stops after a certain point because it cannot get a perfectly accurate answer.
 
 ### Why is the value of `.33333 + .33333 + .33333 == 1` equal to `False`?
 
-Provide a one-paragraph response to this question.
 The value is false because Python does not think that the resulting value is close enough to 1 for it to be considered equal to 1.
-
-(Did you remember to add your name?!)
