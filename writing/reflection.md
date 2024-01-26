@@ -32,12 +32,12 @@ The value of 1/3 is 0.3333333333333333
 
 ### Why is it not feasible to perform the computation `2**2**100`?
 
-The number is too large for the program to calculate, so it is unable to provide an answer.
+The number is too large for the program to calculate, so it is unable to provide an answer. The program is able to calculate `2**2**10` because that number is quite a bit smaller than `2**2**100`.
 
 ### What is the value of `1/3` according to the Python language? Why?
 
-The value of 1/3 is 0.3333333333333333. Python divides 1 by 3 and gets a repeating decimal, which it stops after a certain point because it cannot get a perfectly accurate answer.
+The value of 1/3 is 0.3333333333333333. Python divides 1 by 3 and gets a repeating decimal, which it stops after a certain point because it cannot get a perfectly accurate answer. The answer that Python gives is accurate enough that Python can say that it is equal to 1/3.
 
 ### Why is the value of `.33333 + .33333 + .33333 == 1` equal to `False`?
 
-The value is false because Python does not think that the resulting value is close enough to 1 for it to be considered equal to 1.
+The value is false because Python does not think that the resulting value is close enough to 1 for it to be considered equal to 1. If you use the same answer that Python gives for 1/3 and add it 3 times, Python says True because it believes that answer is close enough to 1 to be considered equal to 1. 
